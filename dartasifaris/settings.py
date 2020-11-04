@@ -80,8 +80,8 @@ DATABASES = {
         'NAME': 'dartasifarisdb',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        #'HOST': 'localhost',
+        #'PORT': '3306',
         'OPTIONS': {
             # Enable MySQL strict mode. "MySQL's Strict Mode fixes many data
             # integrity problems in MySQL, such as data truncation upon
