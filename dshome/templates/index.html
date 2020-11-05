@@ -1,9 +1,32 @@
 {% extends 'base.html'%}
 {% load static %}
- {% block ds_login %}
+{% block dshome %}
+<!-- login page templates here first learn how to write jinja notation in python -->
+<div class="container-fluid">
+    <div style="color: blue; font-size:30px; margin-top:2rem; display: flex;
+  align-items: center; justify-content: center;text-align: center;">
+        Welcome To Dartasifaris
+        <br>
+        दर्तासिफरिसमा तपाईंलाई स्वागत छ !!!
 
+    </div>
+    <div class="row" style="margin-top:2rem;">
+        <div class="col"></div>
+        <div class="col bg-Warning ">
+            <form style="text-align: center;margin-top:2rem;">
+                <label>Username: <input type="text"> </label>
+            </form>
+            <form style="text-align: center;">
+                <label>Password: <input type="password"></label>
+            </form>
+            <form style=" text-align: center; padding-right:50px ">
+                <button> Login</button>
+            </form>
+        </div>
+        <div class="col"></div>
+    </div>
 
+</div>
+</div>
 
- <!-- login page templates here first learn how to write jinja notation in python -->
-
- {% endblock %}
+{% endblock %}
